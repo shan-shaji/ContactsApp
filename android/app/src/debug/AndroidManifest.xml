@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.ContactsApp">
+=======
+    package="com.example.AJCE_ALumni">
+>>>>>>> 1ac472fbb91da39e5bc22ca6113b8e836d3c6b33
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->
