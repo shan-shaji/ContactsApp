@@ -4,8 +4,6 @@ import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'dart:convert' show utf8;
-
 class DBHelper {
   static Database _db;
 
@@ -33,7 +31,7 @@ class DBHelper {
     print("Created tables");
   }
 
-  void clear_Table() async {
+  void clearTable() async {
     var dbClient = await db;
     await dbClient.rawQuery("DROP TABLE if exists users");
     _onCreate(dbClient, 1);
